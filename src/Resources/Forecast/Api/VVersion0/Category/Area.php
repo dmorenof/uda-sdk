@@ -43,5 +43,4 @@ final class Area extends \UdaSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_URL_PATH), path: $identifier, parameters: $params);
         return $result;
     }
-
 }

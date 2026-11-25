@@ -16,5 +16,4 @@ final class Competitors extends \UdaSDK\PulseAPIPROSDK
     {
         return self::client()->resource(\UdaSDK\Resources\Assets\Api\VVersion0\Asset\ByAssetId\Competitors::class)->get($identifier, $params);
     }
-
 }

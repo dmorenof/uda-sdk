@@ -16,5 +16,4 @@ final class Area extends \UdaSDK\PulseAPIPROSDK
     {
         return self::client()->resource(\UdaSDK\Resources\Forecast\Api\VVersion0\Category\Area::class)->getByUrlPath($identifier, $params);
     }
-
 }

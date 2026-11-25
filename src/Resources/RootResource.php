@@ -30,5 +30,4 @@ final class RootResource extends \UdaSDK\Client
         $result = $this->executeArguments(self::operation(self::OPTIONS_BY_FULL_PATH), path: ['full_path' => $full_path]);
         return $result;
     }
-
 }

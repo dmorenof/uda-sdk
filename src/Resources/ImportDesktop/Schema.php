@@ -38,5 +38,4 @@ final class Schema extends \UdaSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), parameters: $params);
         return $result;
     }
-
 }

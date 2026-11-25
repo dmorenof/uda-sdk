@@ -10,10 +10,10 @@ namespace UdaSDK\DTOs;
 final class ValidationError extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'loc',
-    'msg',
-    'type',
-];
+        'loc',
+        'msg',
+        'type',
+    ];
 
     public \UdaSDK\Collections\ValidationError\LocCollection $loc;
     public string $msg;

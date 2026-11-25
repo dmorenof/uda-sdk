@@ -41,5 +41,4 @@ final class Portfolios extends \UdaSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_URL_PATH), path: ['url_path' => $url_path], parameters: $params);
         return $result;
     }
-
 }

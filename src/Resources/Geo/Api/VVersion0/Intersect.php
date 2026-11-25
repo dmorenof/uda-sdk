@@ -40,5 +40,4 @@ final class Intersect extends \UdaSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['version' => $version], parameters: $params);
         return $result;
     }
-
 }

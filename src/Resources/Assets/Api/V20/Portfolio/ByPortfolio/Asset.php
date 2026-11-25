@@ -50,5 +50,4 @@ final class Asset extends \UdaSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['portfolio' => $portfolio]);
         return $result;
     }
-
 }

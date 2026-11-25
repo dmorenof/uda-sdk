@@ -14,5 +14,4 @@ final class RootResource extends \UdaSDK\PulseAPIPROSDK
     {
         return self::client()->resource(\UdaSDK\Resources\RootResource::class)->optionsByFullPath($full_path);
     }
-
 }

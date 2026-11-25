@@ -14,5 +14,4 @@ final class Schema extends \UdaSDK\PulseAPIPROSDK
     {
         return self::client()->resource(\UdaSDK\Resources\ImportDesktop\Schema::class)->get($params);
     }
-
 }

@@ -26,5 +26,4 @@ final class Asset extends \UdaSDK\PulseAPIPROSDK
     {
         return self::client()->resource(\UdaSDK\Resources\Assets\Api\V20\Portfolio\ByPortfolio\Asset::class)->post($portfolio);
     }
-
 }

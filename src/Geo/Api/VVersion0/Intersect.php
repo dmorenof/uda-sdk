@@ -16,5 +16,4 @@ final class Intersect extends \UdaSDK\PulseAPIPROSDK
     {
         return self::client()->resource(\UdaSDK\Resources\Geo\Api\VVersion0\Intersect::class)->get($version, $params);
     }
-
 }

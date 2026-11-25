@@ -16,5 +16,4 @@ final class PeriodUrlPath extends \UdaSDK\PulseAPIPROSDK
     {
         return self::client()->resource(\UdaSDK\Resources\Reds\Api\VVersion0\PeriodUrlPath::class)->get($identifier, $params);
     }
-
 }

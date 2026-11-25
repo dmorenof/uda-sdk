@@ -14,5 +14,4 @@ final class Portfolios extends \UdaSDK\PulseAPIPROSDK
     {
         return self::client()->resource(\UdaSDK\Resources\Pulse\Portfolios::class)->getByUrlPath($url_path, $params);
     }
-
 }

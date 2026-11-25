@@ -43,5 +43,4 @@ final class PdfUrlPath extends \UdaSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: $identifier, parameters: $params);
         return $result;
     }
-
 }

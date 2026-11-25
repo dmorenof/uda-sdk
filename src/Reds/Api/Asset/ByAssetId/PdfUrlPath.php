@@ -16,5 +16,4 @@ final class PdfUrlPath extends \UdaSDK\PulseAPIPROSDK
     {
         return self::client()->resource(\UdaSDK\Resources\Reds\Api\Asset\ByAssetId\PdfUrlPath::class)->post($identifier, $params);
     }
-
 }

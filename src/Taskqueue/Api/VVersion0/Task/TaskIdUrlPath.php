@@ -16,5 +16,4 @@ final class TaskIdUrlPath extends \UdaSDK\PulseAPIPROSDK
     {
         return self::client()->resource(\UdaSDK\Resources\Taskqueue\Api\VVersion0\Task\TaskIdUrlPath::class)->get($identifier, $params);
     }
-
 }

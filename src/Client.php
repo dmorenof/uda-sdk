@@ -7,19 +7,19 @@ namespace UdaSDK;
 class Client extends \Dmorenof\SdkRuntime\ApiClient
 {
     protected const array SECURITY_SCHEMES = [
-    'APIKeyQuery' => [
-        'type' => 'apiKey',
-        'scheme' => null,
-        'location' => 'query',
-        'parameterName' => 'key',
-    ],
-    'APIKeyHeader' => [
-        'type' => 'apiKey',
-        'scheme' => null,
-        'location' => 'header',
-        'parameterName' => 'Authorization',
-    ],
-];
+        'APIKeyQuery' => [
+            'type' => 'apiKey',
+            'scheme' => null,
+            'location' => 'query',
+            'parameterName' => 'key',
+        ],
+        'APIKeyHeader' => [
+            'type' => 'apiKey',
+            'scheme' => null,
+            'location' => 'header',
+            'parameterName' => 'Authorization',
+        ],
+    ];
 
     private static ?self $currentConnection = null;
 

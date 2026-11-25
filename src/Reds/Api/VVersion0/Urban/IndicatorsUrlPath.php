@@ -16,5 +16,4 @@ final class IndicatorsUrlPath extends \UdaSDK\PulseAPIPROSDK
     {
         return self::client()->resource(\UdaSDK\Resources\Reds\Api\VVersion0\Urban\IndicatorsUrlPath::class)->get($identifier, $params);
     }
-
 }

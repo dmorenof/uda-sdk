@@ -16,5 +16,4 @@ final class ReportUrlPath extends \UdaSDK\PulseAPIPROSDK
     {
         return self::client()->resource(\UdaSDK\Resources\Reds\Api\VVersion0\ReportUrlPath::class)->post($identifier, $params);
     }
-
 }

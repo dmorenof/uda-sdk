@@ -43,5 +43,4 @@ final class IndicatorsUrlPath extends \UdaSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: $identifier, parameters: $params);
         return $result;
     }
-
 }

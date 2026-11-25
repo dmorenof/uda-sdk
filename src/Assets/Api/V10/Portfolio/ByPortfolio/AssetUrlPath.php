@@ -16,5 +16,4 @@ final class AssetUrlPath extends \UdaSDK\PulseAPIPROSDK
     {
         return self::client()->resource(\UdaSDK\Resources\Assets\Api\V10\Portfolio\ByPortfolio\AssetUrlPath::class)->post($identifier, $params);
     }
-
 }
