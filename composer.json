@@ -18,7 +18,7 @@
         }
     ],
     "require": {
-        "dmorenof/sdk-runtime": "^1.13.0",
+        "dmorenof/sdk-runtime": "^1.14.1",
         "php": "^8.4"
     },
     "require-dev": {
